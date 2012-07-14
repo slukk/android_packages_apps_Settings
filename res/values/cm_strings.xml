@@ -912,10 +912,6 @@
     <string name="navigation_ring_title">Navigation ring targets</string>
     <string name="navigation_ring_message">Tap the edit icon to open the navigation ring for editing.\n\nSelect a target to configure its behavior.\n\nTap the \'\u2713\' icon to save your changes, or \'Restore defaults\' to reset the settings to defaults.</string>
 
-    <!-- Stylus Icon -->
-    <string name="stylus_icon_enabled_title">Show icon when using stylus</string>
-    <string name="stylus_icon_enabled_summary">Show the pointer icon when hovering or drawing with the stylus</string>
-
     <!-- Stylus Gestures -->
     <string name="gestures_settings_title">Stylus gestures</string>
     <string name="category_spen_title">Stylus gestures</string>
@@ -940,5 +936,8 @@
 
     <!-- Stylus gestures -->
     <string name="stylus_app_not_installed">%s is not installed</string>
+<<<<<<< HEAD
 >>>>>>> 428a40d... Improve navigation settings help messages
+=======
+>>>>>>> d4e96eb... Stylus gestures features (2/2)
 </resources>
