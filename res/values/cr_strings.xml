@@ -36,6 +36,10 @@
     <string name="dialog_restart">Restart</string>
     <string name="dialog_cancel">Cancel</string>
 
+    <!-- Changelog -->
+    <string name="changelog_crdroid_title">Changelog</string>
+    <string name="changelog_crdroid_error">Unable to load changelog</string>
+
     <!-- crDroid custom settings -->
     <string name="crdroid_custom_title">More</string>
     <string name="status_bar_title">Status bar</string>
