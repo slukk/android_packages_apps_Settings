@@ -24,6 +24,12 @@
          android:enabled="false"
          android:layout="@layout/tsm_logo" />
 
+    <!-- Pie control -->
+    <PreferenceScreen
+        android:key="pie_settings"
+        android:fragment="com.android.settings.bliss.PieControl"
+        android:title="@string/pie_control_title" />
+
     <!-- Status bar settings -->
     <PreferenceScreen
          android:key="status_bar"
