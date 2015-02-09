@@ -23,8 +23,8 @@
     <!-- Partition info -->
 
         <Preference
-            android:icon="@drawable/ic_tab_selected_sdcard"
-            android:title="@string/partition_info_title">
+            android:title="@string/partition_info_title"
+            android:summary="@string/partition_info_summary">
         <intent
             android:action="com.android.action.MAIN"
             android:targetPackage="com.android.settings"
@@ -40,6 +40,7 @@
                 android:persistent="false"
                 android:entries="@array/media_scanner_on_boot_entries"
                 android:entryValues="@array/media_scanner_on_boot_values" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
