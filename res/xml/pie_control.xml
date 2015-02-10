@@ -24,7 +24,7 @@
 
     <PreferenceScreen
             android:key="pie_button"
-            android:fragment="com.android.settings.bliss.dslv.ActionListViewSettings"
+            android:fragment="com.android.settings.crdroid.dslv.ActionListViewSettings"
             android:title="@string/pie_button"
             android:dependency="pie_control">
         <extra android:name="actionMode" android:value="1" />

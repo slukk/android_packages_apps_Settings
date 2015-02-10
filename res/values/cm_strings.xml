@@ -940,8 +940,4 @@
 
     <!-- Stylus gestures -->
     <string name="stylus_app_not_installed">%s is not installed</string>
-<<<<<<< HEAD
->>>>>>> 428a40d... Improve navigation settings help messages
-=======
->>>>>>> d4e96eb... Stylus gestures features (2/2)
 </resources>

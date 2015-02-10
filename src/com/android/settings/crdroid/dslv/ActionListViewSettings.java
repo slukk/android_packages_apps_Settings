@@ -525,7 +525,7 @@ public class ActionListViewSettings extends ListFragment implements
                     mActivity, mActionValuesKey, mActionEntriesKey);
             case NAV_RING:
                 return ActionHelper.getNavRingConfigWithDescription(
-                    mActivity, mActionValuesKey, mActionEntriesKey); */
+                    mActivity, mActionValuesKey, mActionEntriesKey);*/
             case PIE:
                 return ActionHelper.getPieConfigWithDescription(
                     mActivity, mActionValuesKey, mActionEntriesKey);
@@ -536,8 +536,8 @@ public class ActionListViewSettings extends ListFragment implements
                 return PolicyHelper.getPowerMenuConfigWithDescription(
                     mActivity, mActionValuesKey, mActionEntriesKey);
             case SHAKE_EVENTS_DISABLED:
-                return ActionHelper.getDisabledShakeApps(mActivity);
-*/
+                return ActionHelper.getDisabledShakeApps(mActivity);*/
+
         }
         return null;
     }
@@ -553,7 +553,7 @@ public class ActionListViewSettings extends ListFragment implements
                 break;
             case NAV_RING:
                 ActionHelper.setNavRingConfig(mActivity, actionConfigs, reset);
-                break; */
+                break;*/
             case PIE:
                 ActionHelper.setPieConfig(mActivity, actionConfigs, reset);
                 break;
@@ -565,8 +565,7 @@ public class ActionListViewSettings extends ListFragment implements
                 break;
             case SHAKE_EVENTS_DISABLED:
                 ActionHelper.setDisabledShakeApps(mActivity, actionConfigs, reset);
-                break;
-*/
+                break;*/
         }
     }
 
